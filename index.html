@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0019607301.js" crossorigin="anonymous"></script>
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>I Am Software Developer </p>
+                <h1>Hi I am <span>Deepak Nayak</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a passionate and dedicated MCA student specializing in web development, I am driven by my love
+                        for coding and creating innovative solutions. Eager to explore the vast world of Node.js
+                        development, I bring a strong foundation in computer science and a thirst for learning. I am a
+                        detail-oriented individual who thrives on challenges, and I am committed to continuous growth
+                        and improvement. My goal is to contribute my skills to dynamic projects, collaborate with
+                        like-minded professionals, and make a meaningful impact in the world of web development.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <h1 class="mern">Back-End Developer in Node.Js </h1>
+                        <ul>
+                            <li><span>Front-End Skills</span>
+                            <li>JavaScript | HTML | CSS | EJS | Bootstrap </li>
+                            <li> &nbsp DOM Manipulation | Axios API's | Ejs Template's | etc.</li>
+                            <li><span>Back-End Skills</span></li>
+                            <li>Nodejs | Express.Js | SQL (Sequelize)</li>
+                            <li> &nbsp MVC Architecture | RESTful APIs | Association Relationships | JSON Web Tokens
+                                (JWT)</li>
+                            <li><span>Basic Skills</span></li>
+                            <li>AWS (Amazon WebServices) | Git | Postman </li>
+                            <li> &nbsp AWS: Amazon Web Services Deployment Beginner.</li>
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <h4>Pursuing in MCA last semester</h4><br>
+                            <h3><b><u>Master's degree</u></b> : &nbsp &nbsp &nbsp MCA (Master of Computer Application).
+                                </h2>
+                                <li><span>Collage Name</span><br>[CIITM] - Compucom Institute Of Information Technology
+                                    And Management, Jaipur , Rajasthan.</li>
+                                <li><span>University </span><br> Rajasthan Technical University (RTU).</li>
+                                <br>
+                                <h3><b><u>Bachelor's degree</u></b> : &nbsp BCA (Bachelor of Computer Application).</h2>
+                                    <li><span>Collage Name</span><br>Apex Institute Of Management & Science. Mansarovar,
+                                        Jaipur , Rajasthan.</li>
+                                    <li><span>University </span><br> Rajasthan University (RU).</li>
+                                    <li><span>Pass Out</span><br>2021</li>
+                                    <li><span>Percentage</span><br>65%</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..................services............ -->
+
+    <div class="container">
+        <h1> My Project's</h1>
+        <a href="http://expensetrackerapp.ddns.net/" target="_blank" class="link btn">ExpenseTrackerApp</a>
+        <a href="http://3.110.87.228/" target="_blank" class="link btn">Product Seller App</a>
+        <a href="http://13.232.99.157/" target="_blank" class="link btn">Product in Stock App</a>
+        <a href="https://dpknayak11.github.io/Portfolio-Website/" target="_blank" class="link btn">My Portfolio</a>
+        <a href="https://dpknayak11.github.io/brdyDateCounting/" target="_blank" class="link btn">Project.1</a>
+        <a href="https://dpknayak11.github.io/slogen.gitub.io/" target="_blank" class="link btn">Project.2</a>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi quod, aspernatur blanditiis
+                        voluptas, ipsum fugiat tempora nam ducimus exercitationem, culpa ipsa commodi ab beatae fuga
+                        consequatur. Vero, nostrum esse.</p>
+                    <a href="image/coming-soon.jpg" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi quod, aspernatur blanditiis
+                        voluptas, ipsum fugiat tempora nam ducimus exercitationem, culpa ipsa commodi ab beatae fuga
+                        consequatur. Vero, nostrum esse.</p>
+                    <a href="image/coming-soon.jpg" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi quod, aspernatur blanditiis
+                        voluptas, ipsum fugiat tempora nam ducimus exercitationem, culpa ipsa commodi ab beatae fuga
+                        consequatur. Vero, nostrum esse.</p>
+                    <a href="image/coming-soon.jpg" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="image/coming-soon.jpg" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="image/coming-soon.jpg" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Online Support App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="image/coming-soon.jpg" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"> </i> dpknayak111@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"> </i> 7220096978 </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dpknayak11" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/dpknayak111" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/dpknayak11/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dpknayak11/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="pdf/resume_dpk.pdf" download class="btn btn2">Download CV</a>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.830533115065!2d75.78379526497078!3d26.940586433115598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3e966198e0d%3A0x61f85423e7b8b24a!2sRajasthan%20Pradesh%20Congress%20Comittee!5e0!3m2!1sen!2sin!4v1666188711705!5m2!1sen!2sin"
+                        width="70%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@ Copyright Deepak. Made wtih by Deepak Nayak <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcXna_9DuPrCcIdZzpY6v9zET9JKCPaCqOvFThsHXk238p0VScidP2TjT41xHb0GeAGw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
